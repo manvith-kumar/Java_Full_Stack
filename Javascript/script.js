@@ -1,6 +1,6 @@
 num = 10;
 num = "java";
-num = true
+num = true;
 console.log(num);
 
 /*
@@ -10,7 +10,7 @@ when run this gives the error (variable not defined)
 
 console.log(num);
 var num="HEY HELLO";
-when run this gives the ouput as "undefined" without any error
+when run this gives the output as "undefined" without any error
 
 class DisplayDetails {
     static getDetails() {
@@ -29,4 +29,4 @@ console.log(str);
 
 let arr=[10,20,30,40,50];
 let [a,b,c,d,e]=arr;
-console.log(c);     
+console.log(c);

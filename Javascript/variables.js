@@ -22,7 +22,8 @@ console.log(s==s1); // output: false
 let s2=10;
 let s3=10;
 console.log(s2==s3); // output: true
-// "==" operator only checks the values...
+
+// "==" operator checks the values after type conversion
 let s4=10;
 let s5="10";
 console.log(s4==s5); // output: true
