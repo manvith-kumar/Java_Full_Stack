@@ -1,0 +1,52 @@
+25-09-2026
+----------
+Commands to configure our github account
+1. git config --global user.name "manvith-kumar"
+2. git config --global user.email "manvithdevarapalli@gmail.com"
+
+Commands to check whether our account is configured or not
+1. git config --list
+
+
+Types of Tags continuation of Day 1:
+-----------------------------------
+2. Unpaired Tags / Self Closing Tags:
+------------------------------------
+    -> Any tags having only opening tags are called Unpaired tags
+    Ex: <br> , <img> , <hr> , <col> , <input> , <meta> etc
+
+    i. Img tag:
+    -----------
+        -> <img> tag is one of the media tag used to display images on the web page
+
+        -> Image attributes:
+        ------------------
+            1. src(source):
+                    -> Absolute path(Browser images)
+                    -> Relative path(Downloaded images)
+            2. alt
+            3. height
+            4. width
+            5. style
+            6. id
+            7. class
+
+    Attributes:
+    ----------
+    -> Attributes are the additional information given to the tag
+    -> Attributes are always in static(opening) tags
+    -> Attributes are always in key and value
+    Ex: <img src="image.jpg" alt="Sample Image">
+
+
+git init
+git add .
+git commit -m "Message to be added"
+git branch -M main
+git remote add origin repository url 
+git push origin main
+
+//Suppose there are 5 developers and they have access to a main repository of the project,
+//but they will work on different branches of that project repository.
+//So that the main code will not be modified every time they work.
+//Each will work on a different branch.
