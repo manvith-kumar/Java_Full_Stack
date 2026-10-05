@@ -1,0 +1,136 @@
+Javascript : (30-09-2026)
+------------
+    -> Javascript is a scripting language as well as a programming language
+    -> Js is dynamically typed programming 
+    -> JS having single Call Stack 
+    -> JS has only interpreter no compiler 
+
+Uses:
+    -> Using Javascript we can build Dynamic web applications
+    -> Using JS wwe can add functionalities to the web pages
+    -> Here we can achieve DOM(Document Object Model) functionalities, using that we can manipulate HTML and CSS
+    -> We can fetch data from the server(API's) and also send data to Server(API's) 
+
+-> JS is introduced in India in 1994
+    mocha - is introduced in India in 1995 - net scope (browser company)
+    |
+    live script 
+    |
+    Javascript 
+    |
+    ECMA(European Computing Manufacturing Association) -> added new feature -> release first version -> ES1(ECMA script version) 
+
+Stable version of JS -> ES6 
+
+Present version of JS -> ES16 
+
+Implements :
+------------
+    1. Inline JS 
+    2. Internal JS
+    3. External JS
+
+Assessment question:
+    -> Write and come 15 browser names and their respective Javascript engine names 
+        ex: chrome->v8, opera->chakra, 
+    -> Depricated keywords in Javascript 
+
+
+Tokens :
+--------
+    -> tokens are the smallest units in the JS code 
+    Types :
+    -------
+        1. Identifiers
+            -> Identifiers are the names given to the code
+            -> In the place of Identifiers we can't use Keywords
+            -> Ex: variable name, class names, function names(method names)
+        2. Keywords
+            -> Keywords are the predefined words which have its own meaning
+            -> In JS total 66 Keywords
+            -> Ex: const, let, var, try, catch ....
+        3. Literals
+        4. Operators
+            -> Symbols used to perform some operations
+        5. Separators
+            -> Ex: . , "", '', ``, ;, :, {}, [], (), <>, ,
+        6. Comments
+            -> Single line comments (//)
+            -> multi line comments (/*_________ _________ __________ _________*/)
+            
+Data Types :
+------------
+    -> Data Types represent what type of data we are storing on that variable
+    Types :
+        1. Primitive DataTypes
+            i. number
+            ii. string
+            iii. boolean
+            iv. null
+            v. undefine
+            vi. symbol
+            vii. bigint 
+
+        2. Non Primitive DataTypes
+            i. Arrays
+                -> Arrays are the linear data structures used to store collection of homogenous or heterogenous data 
+                
+                In JS Arrays Declaration :
+                --------------------------
+                    1. literal way 
+                    2. using new keyword (object)
+
+                    Loops :
+                    -------
+                        1. for loop 
+                        2. while loop
+                        3. do while loop 
+                        4. for-of loop (arrays or strings) -> only values
+                        5. for-in loop (arrays or strings) -> only index's 
+                        6. forEach loop 
+
+                        7. map()
+                        8. filter()
+                        9. reduce()
+
+            ii. Objects
+                -> Objects are the real time entities in JS used to store data in the form of key and value pair 
+
+                In JS Objects Declaration :
+                --------------------------
+                    1. literal way 
+                        Syntax: 
+                            variableType variableName={
+                                key1:value,
+                                key2:value
+                            }
+                    2. using new keyword (object)
+                        Syntax: 
+                            variableType variableName=new Object({
+                                key1:value,
+                                key2:value
+                            })
+            iii. functions 
+                -> functions are the block of statements which will get execute when ever it was called
+                
+                Notes:
+                    -> Using functions we can perform Code reusability
+                    -> And also increase Code readability
+
+                Types :
+                -------
+                    1. User defined functions 
+                    2. Predefined functions 
+
+    In JS we can Declare functions in many ways(classifications)
+    ------------------------------------------------------------
+        1. Anonymous Function 
+        2. Normal/Named Expression 
+        3. Functional Expression 
+        4. First Class Function 
+        5. Immediate Invoking Function(IIf) / Self Calling Function
+        6. Arrow Function (Introduced in ES6) 
+        7. Nested Functions 
+        8. Higher Order Function 
+        9. Callback Function 
+        10. Generator Function
