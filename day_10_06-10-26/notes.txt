@@ -1,0 +1,177 @@
+CSS ANIMATIONS : (06-10-2026)
+----------------------------
+
+-> CSS Animations are used to add movement and effects to HTML elements.
+
+-> Animations are created using @keyframes.
+
+
+@keyframes :
+-------------
+
+-> @keyframes is used to define the different stages of an animation.
+
+Syntax :
+    @keyframes animationName{
+        from{
+            property: value;
+        }
+        to{
+            property: value;
+        }
+    }
+
+
+Example :
+    @keyframes rotate{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+
+
+Animation Properties :
+----------------------
+
+1. animation-name
+    -> Specifies the name of the animation.
+
+2. animation-duration
+    -> Specifies how long the animation takes.
+
+3. animation-timing-function
+    -> Controls the speed of the animation.
+
+    Values:
+        -> linear
+        -> ease
+        -> ease-in
+        -> ease-out
+        -> ease-in-out
+
+4. animation-delay
+    -> Specifies the delay before the animation starts.
+
+5. animation-iteration-count
+    -> Specifies how many times the animation runs.
+
+    Example:
+        -> 1
+        -> 3
+        -> infinite
+
+6. animation-direction
+    -> Specifies the direction of the animation.
+
+    Values:
+        -> normal
+        -> reverse
+        -> alternate
+        -> alternate-reverse
+
+
+Animation Shorthand :
+---------------------
+
+-> We can write all animation properties in one line.
+
+Syntax :
+    animation: name duration timing-function delay
+               iteration-count direction;
+
+Example :
+    animation: rotate 2s linear 1s infinite normal;
+
+
+Transform :
+-----------
+
+-> transform is used to change the position, size or rotation
+   of an element.
+
+Types :
+
+1. translateX()
+    -> Moves the element horizontally.
+
+2. translateY()
+    -> Moves the element vertically.
+
+3. rotate()
+    -> Rotates the element.
+
+4. scale()
+    -> Increases or decreases the size of the element.
+
+
+MEDIA QUERIES
+-------------
+
+-> Media Queries are used to create responsive websites.
+
+-> They apply different CSS styles based on screen size.
+
+
+Syntax :
+
+    @media(condition){
+        CSS code
+    }
+
+
+Width :
+-------
+
+@media(width: 600px){
+    div{
+        background-color: red;
+    }
+}
+
+
+Minimum Width :
+---------------
+
+@media(min-width: 600px){
+    div{
+        background-color: red;
+    }
+}
+
+-> Applies when width is 600px or greater.
+
+
+Maximum Width :
+---------------
+
+@media(max-width: 600px){
+    div{
+        background-color: red;
+    }
+}
+
+-> Applies when width is 600px or smaller.
+
+
+Width Range :
+-------------
+
+@media(min-width: 200px) and (max-width: 300px){
+    div{
+        background-color: red;
+    }
+}
+
+-> Applies when width is between 200px and 300px.
+
+
+IMPORTANT :
+-----------
+
+-> min-width  -> 600px and above
+-> max-width  -> 600px and below
+
+-> Media Queries are mainly used for responsive design.

@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    background-color: #e0f2fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: desco 6s linear 2s infinite normal;
+}
+
+@keyframes desco{
+    0%{
+        background-color: #e0f2fe;
+    }
+    15%{
+        background-color: #ede9fe;
+    }
+    30%{
+        background-color: #fce7f3;
+    }
+    45%{
+        background-color: #dcfce7;
+    }
+    60%{
+        background-color: #fef3c7;
+    }
+    75%{
+        background-color: #cffafe;
+    }
+    90%{
+        background-color: #fae8ff;
+    }
+    100%{
+        background-color: #e0f2fe;
+    }
+}
+
+h1{
+    background-color: #ffffff;
+    color: #475569;
+    font-size: 200px;
+    padding: 20px;
+    border-radius: 20px;
+}
