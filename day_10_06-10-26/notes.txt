@@ -175,3 +175,33 @@ IMPORTANT :
 -> max-width  -> 600px and below
 
 -> Media Queries are mainly used for responsive design.
+
+POSITIONS
+---------
+
+-> CSS position property is used to control the position of an element.
+
+Types :
+-------
+
+1. static
+    -> Default position of an element.
+    -> top, right, bottom and left do not work.
+
+2. relative
+    -> Element is positioned relative to its normal position.
+    -> top, right, bottom and left can be used.
+
+3. absolute
+    -> Element is positioned relative to its nearest positioned
+       ancestor.
+    -> If there is no positioned ancestor, it is positioned relative
+       to the initial containing block.
+
+4. fixed
+    -> Element is positioned relative to the browser viewport.
+    -> It remains fixed even when the page is scrolled.
+
+5. sticky
+    -> Element switches between relative and fixed positioning
+       based on the user's scroll position.
